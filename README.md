@@ -22,7 +22,3 @@
 </div>
 
 ###
-
-<img src="https://raw.githubusercontent.com/UP240041/UP240041/output/snake.svg" alt="Snake animation" />
-
-###
