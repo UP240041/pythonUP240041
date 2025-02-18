@@ -76,20 +76,51 @@ if True:
 else:
     print("La longitud de la palabra 1 no es menor que la longitud de la palabra 2")
 
-##Ejercicio 10
+##Ejercicio 10 (PENDIENTE)
 ##Esta en?
+print("on" in "python" and "on" in "dragon") #Se imprime si "on" está en "python" y en "dragon"
+if True:
+    print("on está en python y en dragon")  #Se imprime si "on" está en "python" y en "dragon"
+else:
+    print("on no está en python y en dragon")  #Se imprime si "on" no está en "python" y en "dragon"
+
+
+##Ejercicio 11
+##Esta en?2
+print("jargon" in "I hope this course is not full of jargon") #Se imprime si "jargon" está en la frase
+if True:
+    print("jargon está en la frase")  #Se imprime si "jargon" está en la frase
+else:
+    print("jargon no está en la frase")
+
+##Ejercicio 12 (PENDIETE)
 
 
 
-
-
-
-
-
-
-##Ejercicio 
+##Ejercicio 13
 ##Converciones
 palabra="python" #Se define la palabra
 longitud= len(palabra) #Se obtiene la longitud de la palabra
-pirnt("on" in "python" and "on" in "dragon") #Se imprime si "on" está en "python" y en "dragon"
+float(longitud) #Se convierte la longitud a entero
+str(longitud) #Se convierte la longitud a string
 
+##Ejercicio 14
+##Pares
+n=int(input("Introduce un número: "))
+n%2==0 #Se verifica si el número es par
+if True:
+    print("El número es par") #Se imprime si el número es par
+else:
+    print("El número no es par")
+
+##Ejercicio 15
+##floor division
+floorDivision=7//3 #Se calcula la división entera de 7 entre 3
+n=int(2.7) #Se convierte 2.7 a entero
+floorDivision==n #Se compara si la división entera de 7 entre 3 es igual a 2.7 convertido a entero
+if True:
+    print("La división entera de 7 entre 3 es igual a 2.7 convertido a entero") #Se imprime si la división entera de 7 entre 3 es igual a 2.7 convertido a entero
+else:
+    print("La división entera de 7 entre 3 no es igual a 2.7 convertido a entero")
+
+##Ejercicio 16
