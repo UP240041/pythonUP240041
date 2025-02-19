@@ -94,7 +94,7 @@ else:
     print("jargon no está en la frase")
 
 ##Ejercicio 12 (PENDIETE)
-
+        ##actividad 15
 
 
 ##Ejercicio 13
@@ -124,3 +124,29 @@ else:
     print("La división entera de 7 entre 3 no es igual a 2.7 convertido a entero")
 
 ##Ejercicio 16
+## ¿"10" es igual a 10?
+print("10"==10) #Se compara si "10" es igual a 10  (False)
+
+##Ejercicio 17
+##¿int(9.8) es igual a 10?
+print(int(9.8)==10) #Se compara si int(9.8) es igual a 10 (True)
+##Los decimales se redondean al entero más cercano
+
+##Ejercicio 18
+##Salario
+horasTrabajadas= int(input("Introduce las horas trabajadas: ")) #Se piden las horas trabajadas
+tarifaPorHora= float(input("Introduce la tarifa por hora: ")) #Se pide la tarifa por hora
+diasTrabajadosSemanales= int(input("Introduce los días trabajados a la semana: ")) #Se piden los días trabajados a la semana
+salarioSemanal= horasTrabajadas*tarifaPorHora*diasTrabajadosSemanales #Se calcula el salario semanal
+print("El salario semanal es: ", salarioSemanal) #Se imprime el salario semanal
+
+
+##Ejercicio 19
+##Años vividos, segundos vividos
+edad= int(input("Introduce tu edad: ")) #Se pide la edad
+diasVividos= edad*365 #Se calculan los días vividos
+segundosVividos= diasVividos*24*60*60 #Se calculan los segundos vividos
+print("Has vivido ", diasVividos, " días y ", segundosVividos, " segundos") #Se imprime los días y segundos vividos
+
+##Ejercicio 20
+##tabla de exponentes (pedir ayuda)
