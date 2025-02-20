@@ -69,6 +69,9 @@ else:
     print("La pendiente 1 no es menor que la pendiente 2")
 
 ##Ejercicio 11
+x=int(input("Introduce un número: ")) 
+y=x**2+6*x+9 
+    ## "y" es igual a cero cunaod x es igual a -3
 
 ##Ejercicio 12
 ##Comparar longitudes de palabras
