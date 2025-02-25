@@ -103,7 +103,11 @@ else:
     print("jargon no está en la frase")
 
 ##Ejercicio 15 (PENDIETE)
-
+print("on" not in "python" and "on" not in "dragon") #Se imprime si "on" no está en "python" y en "dragon"
+if True:
+    print("on no está en python y en dragon")  #Se imprime si "on" no está en "python" y en "dragon"
+else:
+    print("on está en python y en dragon")  #Se imprime si "on" está en "python" y en "dragon"
 
 
 ##Ejercicio 16
