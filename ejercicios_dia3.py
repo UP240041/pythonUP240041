@@ -102,7 +102,7 @@ if True:
 else:
     print("jargon no está en la frase")
 
-##Ejercicio 15 (PENDIETE)
+##Ejercicio 15
 print("on" not in "python" and "on" not in "dragon") #Se imprime si "on" no está en "python" y en "dragon"
 if True:
     print("on no está en python y en dragon")  #Se imprime si "on" no está en "python" y en "dragon"
@@ -162,7 +162,7 @@ segundosVividos= diasVividos*24*60*60 #Se calculan los segundos vividos
 print("Has vivido ", diasVividos, " días y ", segundosVividos, " segundos") #Se imprime los días y segundos vividos
 
 ##Ejercicio 23
-##tabla de exponentes (pedir ayuda)
+##tabla de exponentes
 a=1
 print(a, a**0, a**1, a**2, a**3)
 a+=1

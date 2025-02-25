@@ -34,3 +34,45 @@ print(len(company))
 ##Ejercicio 6
 ##Todas las letras en mayusculas
 print(company.upper())
+
+##Ejercicio 7
+##Todas las letras en minusculas
+print(company.lower())
+
+##Ejercicio 8
+##Dar formato a un string
+CFA="coding for all"
+print(CFA.capitalize())
+print(CFA.title())
+print(CFA.swapcase())
+
+##Ejercicio 9
+##Cortar
+CFA="Coding For All"
+inicio=CFA.find("Coding")
+fin=CFA.find("All")
+print(CFA[inicio:fin])
+
+##Ejercicio 10
+##Buscar "Coding"
+buscar="Coding"
+CFA="Coding For All"
+print(CFA.index(buscar))
+
+##Ejercicio 11
+##Reemplazar1
+CFA="Coding For All"
+print(CFA.replace("Coding","Python"))
+
+##Ejercicio 12
+##Reemplazar2
+EP="Everyone to Python"
+print(EP.replace("Python","All"))
+
+##Ejercicio 13
+##Separar
+CFA="Coding For All"
+print(CFA.split(" "))
+
+
+
