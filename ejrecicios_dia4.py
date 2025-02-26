@@ -182,3 +182,46 @@ print(textosinespacios)
 texto1="30DaysOfPython"
 texto2="thirty_days_of_python"
 print(texto1.isidentifier())
+if texto1.isidentifier()==False:
+    print("No es un identificador valido")
+print(texto2.isidentifier())
+if texto2.isidentifier()==True:
+    print("Es un identificador valido")
+
+##Ejercicio 32
+##Join
+pythonLibraries=['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+join="# ".join(pythonLibraries)
+
+##Ejercicio 33
+##Escape
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+##Ejercicio 34
+##Tab
+print("Name\tAge\tCountry\nAsabeneh\t250\tFinland")
+
+##Ejercicio 35
+##Formated string
+radio = 10
+pi=3.14
+area=pi*radio**2
+string1="radius = %d" %radio
+string2="area = %.2f * radius ** 2" %pi
+string3="The area of a circle with radius %d is %d meter square" %(radio,area)
+print(string1)
+print(string2)
+print(string3)
+
+##Ejercicio 36
+##Formated string2
+a=8
+b=6
+suma=f'{a}+{b}={a+b}'
+resta=f'{a}-{b}={a-b}'
+multiplicacion=f'{a}*{b}={a*b}'
+division=f'{a}/{b}={a/b}'
+modulo=f'{a}%{b}={a%b}'
+enteroDivision=f'{a}//{b}={a//b}'
+potencia=f'{a}**{b}={a**b}'
+print(suma+"\n"+resta+"\n"+multiplicacion+"\n"+division+"\n"+modulo+"n"+enteroDivision+"\n"+potencia)    
