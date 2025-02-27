@@ -14,7 +14,9 @@ print(len(lista))
 
 ##Ejercicio 4
 ##Inicio, medio y final de la lista
-print(lista[0,2,4])
+##print(lista[0,2,4])
+primero, segundo, tercero, cuarto, quinto = lista
+print(primero, tercero, quinto)
 
 ##Ejercicio 5
 ##Lista de datos mixta
@@ -82,3 +84,36 @@ print(it_companies[3:])
 print(it_companies[0:-3])
 
 ##Ejercicio 20
+##Quitar la empresa de en medio
+empresas1=it_companies[0:4]
+empresas2=it_companies[5:9]
+empresasResultantes=empresas1+empresas2
+print(empresasResultantes)
+
+##Ejercicio 21
+##Remover la primera empresa
+del it_companies[0]
+
+##Ejercicio 22
+##Remover la empresa de enmedio
+del it_companies[3,4]
+
+##Ejercicio 23
+##Remover la ultima empresa
+it_companies.pop()
+
+##Ejercicio 24
+##Remover todas las empresas
+it_companies.clear()
+
+##Ejercicio 25
+##Eliminar la lista
+del it_companies
+
+##Ejercicio 26
+##Concatenar dos listas
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+listaCompleta= front_end + back_end
+print(listaCompleta)
+
